@@ -22,12 +22,11 @@
             android:background="@drawable/shape_button_login"
             android:text="Đăng nhập"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="20dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/bevan"
             android:gravity="center"
-            app:backgroundTint="@null"
-            android:textAllCaps="false"/>
+            app:backgroundTint="@color/white"
+            android:textAllCaps="true"/>
 
         <Button
             android:id="@+id/btn_Register_activity_before_login"
@@ -37,12 +36,11 @@
             android:background="@drawable/shape_button_login_border"
             android:text="Đăng ký"
             android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="20dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/bevan"
             android:gravity="center"
             app:backgroundTint="@null"
-            android:textAllCaps="false"/>
+            android:textAllCaps="true"/>
 
         <Button
             android:id="@+id/btn_BackToHomePage_activity_before_login"
@@ -52,13 +50,11 @@
             android:background="@drawable/shape_button_login_border"
             android:text="Trở về trang chủ"
             android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="20dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/bevan"
             android:gravity="center"
             app:backgroundTint="@null"
-            android:textAllCaps="false"/>
-
+            android:textAllCaps="true"/>
     </LinearLayout>
 
 </LinearLayout>

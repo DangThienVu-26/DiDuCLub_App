@@ -43,7 +43,7 @@
                     android:text="@string/kh_ch_v_ng_lai"
                     android:fontFamily="@font/bevan"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/th_nh_vi_n"
                     android:textColor="#F44336"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginEnd="5dp"
                     android:fontFamily="serif"
@@ -86,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ch_a_c_h_ng"
                     android:textColor="#727272"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:fontFamily="serif"/>
 
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:text="Tích luỹ:"
                     android:textColor="#F44336"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_marginEnd="5dp"
                     android:fontFamily="serif"
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:text="0.000 điểm"
                     android:textColor="#727272"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:fontFamily="serif"/>
 

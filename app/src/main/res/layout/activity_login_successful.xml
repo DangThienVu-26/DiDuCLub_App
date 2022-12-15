@@ -15,20 +15,20 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:src="@drawable/ic_baseline_check_circle_outline_24"
-            android:layout_marginBottom="10dp"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Đăng nhập thành công!"
-            android:textSize="30sp"
-            android:textColor="@color/black"
+            android:text="DIDU CLUB XIN CHÀO!"
+            android:textSize="24sp"
+            android:textColor="@color/teal_700"
             android:textStyle="bold"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/bevan"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/new_check" />
 
     </LinearLayout>
 
@@ -36,7 +36,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
-        android:gravity="center">
+        android:gravity="bottom"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_GoToHomePage_activity_login_successful"
@@ -44,14 +45,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:background="@drawable/shape_radius_button_homepage"
-            android:text="Trang chủ"
+            android:text="trang chủ"
+            android:fontFamily="@font/bevan"
             android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="20dp"
+            android:textSize="14sp"
             app:backgroundTint="@null"
-            android:textAllCaps="false" />
-
+            android:textAllCaps="true" />
     </LinearLayout>
 
 </LinearLayout>

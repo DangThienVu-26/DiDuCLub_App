@@ -1,5 +1,6 @@
 package com.nhom3.diduclub_app;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,7 @@ import com.nhom3.diduclub_app.databinding.ActivityForgetPasswordBinding;
 
 public class ForgetPasswordActivity extends AppCompatActivity {
     ActivityForgetPasswordBinding binding;
-    Button btn_forgotpassword_acctivity;
+    Button btn_forgotpassword_acctivity,btn_back;
     EditText edtPhonenumber1;
 
     @Override
@@ -22,6 +23,13 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         binding = ActivityForgetPasswordBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        binding.btnBackForgetPasswordActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ForgetPasswordActivity.this, LoginmethodActivity.class);
+                startActivity(intent);
+            }
+        });
         btn_forgotpassword_acctivity=findViewById(R.id.btnforhotpassnext);
         btn_forgotpassword_acctivity.setOnClickListener(new View.OnClickListener() {
             @Override

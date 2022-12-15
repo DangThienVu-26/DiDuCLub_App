@@ -77,12 +77,12 @@ public class ProductSearchActivity extends AppCompatActivity {
 
     private ArrayList<HistorySearchModel> initData() {
         historySearchModelArrayList =new ArrayList<>();
-        historySearchModelArrayList.add(new HistorySearchModel("Áo hoodie mùa đông", R.drawable.ic_baseline_arrow_back_24));
-        historySearchModelArrayList.add(new HistorySearchModel("Quần bò", R.drawable.ic_baseline_arrow_back_24));
-        historySearchModelArrayList.add(new HistorySearchModel("Áo phông nam", R.drawable.ic_baseline_arrow_back_24));
-        historySearchModelArrayList.add(new HistorySearchModel("Giày thể thao", R.drawable.ic_baseline_arrow_back_24));
-        historySearchModelArrayList.add(new HistorySearchModel("Giày chunky MLB", R.drawable.ic_baseline_arrow_back_24));
-        historySearchModelArrayList.add(new HistorySearchModel("Áo sinh viên UEL", R.drawable.ic_baseline_arrow_back_24));
+        historySearchModelArrayList.add(new HistorySearchModel("Áo hoodie mùa đông", R.drawable.new_narrow_right));
+        historySearchModelArrayList.add(new HistorySearchModel("Quần bò", R.drawable.new_narrow_right));
+        historySearchModelArrayList.add(new HistorySearchModel("Áo phông nam", R.drawable.new_narrow_right));
+        historySearchModelArrayList.add(new HistorySearchModel("Giày thể thao", R.drawable.new_narrow_right));
+        historySearchModelArrayList.add(new HistorySearchModel("Giày chunky MLB", R.drawable.new_narrow_right));
+        historySearchModelArrayList.add(new HistorySearchModel("Áo sinh viên UEL", R.drawable.new_narrow_right));
         return historySearchModelArrayList;
     }
 
