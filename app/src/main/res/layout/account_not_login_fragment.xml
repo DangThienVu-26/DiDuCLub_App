@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountNotLoginFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shadow_button_layer_list"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/new_avt"
+            android:contentDescription="@string/todo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    android:id="@+id/txt_AccountLastName_activity_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/kh_ch_v_ng_lai"
+                    android:fontFamily="@font/bevan"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_AccountEmail_activity_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="right"
+                android:text="@string/didu_guest_gmail_com"
+                android:textColor="#727272"
+                android:textSize="14sp"
+                tools:ignore="RtlHardcoded"
+                android:fontFamily="serif"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/th_nh_vi_n"
+                    android:textColor="#F44336"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="serif"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:gravity="right"
+                    android:id="@+id/txt_AccountRate_activity_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ch_a_c_h_ng"
+                    android:textColor="#727272"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tích luỹ:"
+                    android:textColor="#F44336"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="serif"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:gravity="right"
+                    android:id="@+id/txt_AccountPoint_activity_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0.000 điểm"
+                    android:textColor="#727272"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_button"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:id="@+id/btn_SupportAndRule_account_not_login_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="@string/trung_t_m_h_tr_i_u_kho_n"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/bevan"/>
+
+        <Button
+            android:id="@+id/btn_Login_account_not_login_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shadow_button_logout"
+            android:text="@string/ng_nh_p_t_i_kho_n"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/bevan"/>
+
+    </LinearLayout>
+
+</LinearLayout>
